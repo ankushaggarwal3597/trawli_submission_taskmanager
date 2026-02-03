@@ -2,7 +2,8 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import "./App.css";
 
-const API = "http://127.0.0.1:8000/api/tasks/";
+const API = "https://traweli-task-backend.onrender.com/api/tasks/";
+
 
 function App() {
   const [tasks, setTasks] = useState([]);
